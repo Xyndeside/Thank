@@ -1,0 +1,28 @@
+.services {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    &__row-common {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+        gap: 20px;
+        
+        @include mobile {
+            display: contents;
+        }
+    }
+    
+    &__row-large {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        
+        @include mobile {
+            display: contents;
+        }
+    }
+}

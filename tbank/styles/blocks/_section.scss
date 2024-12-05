@@ -1,0 +1,12 @@
+.section {
+    padding-block: var(--section-padding-y);
+    
+    &__header {
+        text-align: center;
+        margin-bottom: 48px;
+        
+        @include mobile-s {
+            margin-bottom: 30px;
+        }
+    }
+}

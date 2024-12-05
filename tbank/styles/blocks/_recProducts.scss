@@ -1,0 +1,42 @@
+.recProducts {
+    &__list {
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+    
+    &__row {
+        &-large {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 48px;
+            gap: 20px;
+            
+            @include mobile {
+                display: contents;
+            }
+        }
+        
+        &-common {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            
+            @include mobile {
+                display: contents;
+            }
+        }
+    }
+    
+    &__button {
+        border: 1px solid var(--color-gray-dark);
+        
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 48px;
+        }
+    }
+}

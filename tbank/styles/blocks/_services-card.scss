@@ -1,0 +1,35 @@
+.services-card {
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: 32px;
+    max-width: 336px;
+    display: flex;
+    flex-direction: column;
+    transition-duration: var(--transition-duration);
+    
+    &:hover {
+        transform: scale(1.02);
+    }
+    
+    @include mobile {
+        max-width: 100%;
+    }
+    
+    &__icon {
+        margin-bottom: 44px;
+    }
+    
+    &__title {
+        margin-bottom: 12px;
+    }
+    
+    &__link {
+        margin-top: auto;
+        padding-top: 32px;
+        color: var(--color-blue);
+        
+        &:hover {
+            color: #1a1aff;
+        }
+    }
+}

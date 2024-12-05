@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>TBank</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <div class="header__left">
+                <a class="header__logo logo" href="/">
+                    <img
+                            class="logo__image"
+                            src="./images/icons/tbank-logo.svg"
+                            alt="TBank"
+                            width="95" height="34" loading="lazy"
+                    />
+                </a>
+
+                <nav class="header__menu hidden-mobile">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="/">Частным лицам</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="/">Бизнесу</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="/">Премиум</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="/">Еще</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__button-wrapper">
+                <a class="header__button" href="/">
+                    <span class="hidden-mobile">Личный кабинет</span>
+                    <div class="header__button-icon">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <defs><linearGradient id="dsId_5J4AYv3rMv0_linear_1525_526" x1="10.5" y1="1" x2="10.5" y2="10.608" gradientUnits="userSpaceOnUse"><stop stop-color="currentColor"></stop><stop offset="1" stop-opacity=".5" stop-color="currentColor"></stop></linearGradient></defs>
+                            <path d="M3 19a6 6 0 0 1 6-6h6a6 6 0 0 1 6 6v3H3v-3Z" fill="currentColor"></path>
+                            <path opacity=".35" fill-rule="evenodd" clip-rule="evenodd" d="M16.223 2.952a2.454 2.454 0 0 1-2.177 1.32H11.59a2.455 2.455 0 0 0-2.454 2.455v3.88A4.5 4.5 0 0 0 16.5 7.137V4.273c0-.47-.1-.917-.278-1.32Z" fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.223 2.952A3.274 3.274 0 0 0 13.227 1H7.5v6.136a4.49 4.49 0 0 0 1.636 3.472v-3.88a2.455 2.455 0 0 1 2.455-2.455h2.455c.946 0 1.767-.536 2.177-1.32Z" fill="url(#dsId_5J4AYv3rMv0_linear_1525_526)"></path>
+                        </svg>
+                    </div>
+                </a>
+
+                <button
+                        class="header__burger visible-mobile"
+                        type="button"
+                >
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M5 17H11" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M5 7H15" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="section container">
+            <div class="section__body">
+                <div class="hero">
+                    <div class="hero__main">
+                        <h1 class="hero__main-title">Дебетовая карта, которую рекомендуют ваши друзья</h1>
+                        <div class="hero__main-description">
+                            <p>Кэшбэк рублями до 30%, переводы без комиссии</p>
+                        </div>
+                        <button
+                            class="hero__main-button button-yellow"
+                            type="button"
+                        >
+                            Оформить карту
+                        </button>
+                        <img
+                                class="hero__main-image"
+                                src="./images/hero.png"
+                                alt=""
+                                width="1104" height="460" loading="lazy"
+                        />
+                    </div>
+                    <div class="hero__actions">
+                        <ul class="hero__actions-list">
+                            <li class="hero__actions-item">
+                                <img
+                                  class="hero__actions-image"
+                                  src="./images/hero-actions/1.png"
+                                  alt=""
+                                  width="72" height="72" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Дебетовые карты</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/2.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Кредитные карты</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/3.png"
+                                        alt=""
+                                        width="78" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Кредиты</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/4.png"
+                                        alt=""
+                                        width="72" height="72" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Премиум</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/5.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Вклады</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/6.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Инвестиции</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/7.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Сим-карта</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/8.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Страхование</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/9.png"
+                                        alt=""
+                                        width="73" height="73" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Путешествия</p>
+                                </div>
+                            </li>
+                            <li class="hero__actions-item grid--3">
+                                <img
+                                        class="hero__actions-image"
+                                        src="./images/hero-actions/10.png"
+                                        alt=""
+                                        width="73" height="72" loading="lazy"
+                                />
+                                <div class="hero__actions-text">
+                                    <p>Всё для Бизнеса</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__appPromo">
+                        <div class="hero__appPromo-body">
+                            <div class="hero__appPromo-wrapper">
+                                <h3 class="hero__appPromo-title">Приложение для жизни, а не просто банк</h3>
+                                <div class="hero__appPromo-description hidden-mobile">
+                                    <p>Встречайте новые возможности в приложении Т-Банка</p>
+                                </div>
+                            </div>
+                            <button
+                                class="hero__appPromo-button button-yellow"
+                                type="button"
+                            >
+                                Узнать больше
+                            </button>
+                        </div>
+
+                        <img
+                          class="hero__appPromo-image"
+                          src="./images/mobileApp-promo.png"
+                          alt=""
+                          width="528" height="260" loading="lazy"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Рекомендуемые продукты</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="recProducts">
+                    <div class="recProducts__list">
+                        <div class="recProducts__row-large">
+                            <article class="product-card large bg-dark-gray">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title light-text">Кредитная карта "Платинум"</h3>
+                                    <div class="product-card__description light-text">
+                                        <p>До 1 000 000 ₽ на любые покупки и 120 дней без процентов за погашение картой кредитов других банков</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/recomendations/1.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Оформить карту
+                                </button>
+                            </article>
+                            <article class="product-card large bg-gray">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Т-Инвестиции</h3>
+                                    <div class="product-card__description">
+                                        <p>Понятные тарифы и удобное приложение</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/recomendations/2.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Стать инвестором
+                                </button>
+                            </article>
+                        </div>
+                        <div class="recProducts__row-common">
+                            <article class="product-card bg-gray-alt">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Связь в 2 раза дешевле</h3>
+                                    <div class="product-card__description">
+                                        <p>Дарим новым абонентам 2 месяца подписки Pro, с ней вы получите скидку на минуты и интернет</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg large-image"
+                                        src="./images/recomendations/3.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Заказать сим-карту
+                                </button>
+                            </article>
+                            <article class="product-card bg-gold">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Вклады</h3>
+                                    <div class="product-card__description">
+                                        <p>Откройте вклад с пополнением и частичным изъятием. Каждый месяц получайте проценты на карту или вклад</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/recomendations/4.png"
+                                        alt=""
+                                        width="336" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Открыть вклад
+                                </button>
+                            </article>
+                            <article class="product-card bg-gray-alt">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Страхование ОСАГО</h3>
+                                    <div class="product-card__description">
+                                        <p>Электронный полис с онлайн-калькулятором и скидками (КБМ) за безаварийность</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/recomendations/5.png"
+                                        alt=""
+                                        width="336" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Рассчитать стоимость
+                                </button>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="recProducts__button-wrapper">
+                        <button
+                                class="recProducts__button button-white"
+                                type="button"
+                        >
+                            Все продукты
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Более 46 млн клиентов выбрали Т‑Банк</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="app-download">
+                    <div class="app-download__body">
+                        <img
+                          class="app-download__logo"
+                          src="./images/icons/logo-alt.svg"
+                          alt="TBank logo"
+                          width="120" height="120" loading="lazy"
+                        />
+                        <div class="app-download__promo-details">
+                            <h3 class="app-download__title">Лучший мобильный банк в мире</h3>
+                            <div class="app-download__description">
+                                <p>По версии Global Finance — Best Digital Bank Award 2020</p>
+                            </div>
+                            <div class="app-download__icons">
+                                <div class="app-download__icon hidden-mobile">
+                                    <img src="./images/icons/android.svg" alt="">
+                                </div>
+                                <div class="app-download__icon">
+                                    <img src="./images/icons/ios.svg" alt="">
+                                </div>
+                                <div class="app-download__icon hidden-mobile">
+                                    <img src="./images/icons/appGallery.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img
+                      class="app-download__image"
+                      src="./images/phone.png"
+                      alt=""
+                      width="580" height="500" loading="lazy"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Сервисы и услуги</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="services">
+                    <div class="services__list">
+                        <div class="services__row-common">
+                            <article class="services-card">
+                                <div class="services-card__icon">
+                                    <img src="./images/services/1.svg" alt="">
+                                </div>
+
+                                <div class="services-card__wrapper">
+                                    <h3 class="services-card__title">Курсы валют</h3>
+
+                                    <div class="services-card__description">
+                                        <p>Перевод между своими счетами, оплата услуг и снятие наличных в сервисах Т‑Банка</p>
+                                    </div>
+                                </div>
+
+                                <a class="services-card__link" href="/">Смотреть</a>
+                            </article>
+                            <article class="services-card">
+                                <div class="services-card__icon">
+                                    <img src="./images/services/2.svg" alt="">
+                                </div>
+
+                                <div class="services-card__wrapper">
+                                    <h3 class="services-card__title">Снятие наличных</h3>
+
+                                    <div class="services-card__description">
+                                        <p>В банкоматах Т‑Банка без комиссии. И без карты, если у вас смартфон</p>
+                                    </div>
+                                </div>
+
+                                <a class="services-card__link" href="/">Найти банкомат</a>
+                            </article>
+                            <article class="services-card">
+                                <div class="services-card__icon">
+                                    <img src="./images/services/3.svg" alt="">
+                                </div>
+
+                                <div class="services-card__wrapper">
+                                    <h3 class="services-card__title">Переводы и пополнения</h3>
+
+                                    <div class="services-card__description">
+                                        <p>С карты на карту или на счет Т‑Банка</p>
+                                    </div>
+                                </div>
+
+                                <a class="services-card__link" href="/">Смотреть</a>
+                            </article>
+                        </div>
+                        <div class="services__row-large">
+                            <article class="services-card__large product-card large bg-dark-gray">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title light-text">Приведи друга</h3>
+                                    <div class="product-card__description light-text">
+                                        <p>До 5000 Р за рекомендации друзьям</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/services/4.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Подробнее
+                                </button>
+                            </article>
+                            <article class="services-card__large product-card large bg-gray-alt">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">T‑Pay — оплата в несколько касаний</h3>
+                                    <div class="product-card__description">
+                                        <p>Всё как вы привыкли: легко, надежно и с сохранением кэшбэка</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/services/5.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Попробывать
+                                </button>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Актуально сейчас</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="news">
+                    <ul class="news__list">
+                        <li class="news__item bg-dark-gray">
+                            <div class="news__item-wrapper">
+                                <h3 class="news__title light-text">Выпустили ультратонкий платежный стикер</h3>
+                                <div class="news__description light-text">
+                                    <p>Его удобно носить под чехлом телефона</p>
+                                </div>
+                            </div>
+
+                            <a class="news__link light-text" href="/">Читать</a>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__item-wrapper">
+                                <h3 class="news__title">500 000 ₽ на новый ремонт</h3>
+                                <div class="news__description">
+                                    <p>Оформите страховку квартиры до 18 января и участвуйте в розыгрыше</p>
+                                </div>
+                            </div>
+
+                            <a class="news__link" href="/">Читать</a>
+                        </li>
+                        <li class="news__item">
+                            <div class="news__item-wrapper">
+                                <h3 class="news__title">Как устроено Финздоровье</h3>
+                                <div class="news__description">
+                                    <p>И как сервис помогает контролировать финансы</p>
+                                </div>
+                            </div>
+
+                            <a class="news__link" href="/">Читать</a>
+                        </li>
+                    </ul>
+
+                    <div class="news__button-wrapper">
+                        <button
+                                class="news__button button-white"
+                                type="button"
+                        >
+                            Больше статей
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Работа и развитие</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="work">
+                    <ul class="work__list">
+                        <li class="work__item">
+                            <article class="product-card large bg-gray-alt">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Вакансии</h3>
+                                    <div class="product-card__description">
+                                        <p>В вашем или любом другом городе</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/work&education/1.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Смотреть вакансии
+                                </button>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="product-card large bg-gold">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Т-Образование</h3>
+                                    <div class="product-card__description">
+                                        <p>Учебные курсы и оплачиваемые программы развития</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/work&education/2.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Подробнее
+                                </button>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="product-card large bg-gray">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Как на самом деле пользоваться кредиткой</h3>
+                                    <div class="product-card__description">
+                                        <p>Т-Ж</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/work&education/3.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Читать
+                                </button>
+                            </article>
+                        </li>
+                        <li class="work__item">
+                            <article class="product-card large bg-gray">
+                                <div class="product-card__body">
+                                    <h3 class="product-card__title">Бизнес-секреты</h3>
+                                    <div class="product-card__description">
+                                        <p>Медиа о том, как вести бизнес в России</p>
+                                    </div>
+                                </div>
+
+                                <img
+                                        class="product-card__bg"
+                                        src="./images/work&education/4.png"
+                                        alt=""
+                                        width="528" height="240" loading="lazy"
+                                />
+
+                                <button
+                                        class="product-card__button button-white light-bg"
+                                        type="button"
+                                >
+                                    Узнать больше
+                                </button>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Дополнительно</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="additionally">
+                    <ul class="additionally__list">
+                        <li class="additionally__item">
+                            <div class="additionally__icon">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_256_11610" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="34" height="34">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M29.714 6.37966C26.7245 3.36619 22.5802 1.5 18 1.5C13.4357 1.5 9.30428 3.35327 6.31714 6.34836L12.6811 12.7123C14.0396 11.3459 15.921 10.5 18 10.5C20.0949 10.5 21.9892 11.3589 23.3499 12.7437L29.714 6.37966ZM23.3189 23.2877C21.9604 24.6541 20.079 25.5 18 25.5C15.9369 25.5 14.0683 24.667 12.7123 23.3189L6.34836 29.6829C9.33303 32.6596 13.4516 34.5 18 34.5C22.5643 34.5 26.6957 32.6467 29.6829 29.6516L23.3189 23.2877Z"
+                                              fill="url(#paint0_linear_256_11610)"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M6.31714 6.34827C3.34039 9.33294 1.5 13.4515 1.5 17.9999C1.5 22.5642 3.35327 26.6956 6.34836 29.6828L12.7123 23.3188C11.3459 21.9603 10.5 20.0789 10.5 17.9999C10.5 15.9368 11.333 14.0682 12.6811 12.7122L6.31714 6.34827ZM23.3499 12.7436L29.714 6.37957C32.6724 9.3617 34.5 13.4674 34.5 17.9999C34.5 22.5483 32.6596 26.6669 29.6829 29.6515L23.3189 23.2876C24.667 21.9316 25.5 20.063 25.5 17.9999C25.5 15.9527 24.6797 14.097 23.3499 12.7436Z"
+                                              fill="black"/>
+                                    </mask>
+                                    <g mask="url(#mask0_256_11610)">
+                                        <path d="M0 0H36V36H0V0Z" fill="#336FEE"/>
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_256_11610" x1="34.5" y1="19.5" x2="1.5" y2="19.5"
+                                                        gradientUnits="userSpaceOnUse">
+                                            <stop stop-opacity="0.6"/>
+                                            <stop offset="1" stop-opacity="0.25"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+
+                            <div class="additionally__item-wrapper">
+                                <h3 class="additionally__title">Помощь</h3>
+
+                                <div class="additionally__description">
+                                    <p>Отвечаем на вопросы по всем продуктам</p>
+                                </div>
+                            </div>
+
+                            <a class="additionally__link" href="/">Подробнее</a>
+                        </li>
+                        <li class="additionally__item">
+                            <div class="additionally__icon">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_1525_528" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="2" width="34" height="32">
+                                        <path d="M28.3077 32.1739L24.8113 21.4132L18 26.3619L27.1536 33.0124C27.7413 33.4394 28.5322 32.8648 28.3077 32.1739Z"
+                                              fill="url(#paint0_linear_1525_528)"/>
+                                        <path d="M17.2867 2.64531C17.5112 1.95433 18.4888 1.95433 18.7133 2.64531L22.2096 13.406H33.524C34.2506 13.406 34.5526 14.3357 33.9649 14.7627L24.8113 21.4132L18 26.3619L8.84642 33.0123C8.25864 33.4394 7.46778 32.8648 7.69229 32.1738L11.1886 21.4132L2.03509 14.7627C1.4473 14.3357 1.74938 13.406 2.47593 13.406H13.7903L17.2867 2.64531Z"
+                                              fill="black"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1525_528)">
+                                        <path d="M0 0H36V36H0V0Z" fill="#428BF9"/>
+                                    </g>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1525_528" x1="21.75" y1="24.0001" x2="28.5" y2="33.0001"
+                                                        gradientUnits="userSpaceOnUse">
+                                            <stop stop-opacity="0.6"/>
+                                            <stop offset="1" stop-opacity="0.8"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <div class="additionally__item-wrapper">
+                                <h3 class="additionally__title">Т-Банк Отзывы</h3>
+
+                                <div class="additionally__description">
+                                    <p>Выбирайте продукты Т-Банк, магазины, рестораны, сервисы и бренды на основе реальных отзывов</p>
+                                </div>
+                            </div>
+
+                            <a class="additionally__link" href="/">Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container">
+            <div class="section__header">
+                <h2 class="section__title">Поиск по ответам на вопросы</h2>
+            </div>
+
+            <div class="section__body">
+                <div class="questions">
+                    <div class="questions__search">
+                        <div class="questions__search-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M15.68 17.182a7.75 7.75 0 0 1-12.427-6.18 7.75 7.75 0 1 1 13.848 4.784l2.718 2.737a1.495 1.495 0 0 1 0 2.116l-.352.36-3.786-3.817Zm1.072-6.18a5.75 5.75 0 1 1-11.498 0 5.75 5.75 0 1 1 11.498 0Z"
+                                      fill="currentColor"></path>
+                            </svg>
+                        </div>
+
+                        <input class="questions__search-input" type="text" placeholder="Поиск">
+
+                        <div class="questions__search-icon-delete">
+                            <svg rpl="" fill="currentColor" height="16" icon-name="clear-outline" viewBox="0 0 20 20" width="16" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 18.75A8.75 8.75 0 1 1 18.75 10 8.76 8.76 0 0 1 10 18.75Zm3.567-11.433L10.884 10l2.683 2.683-.884.884L10 10.884l-2.683 2.683-.884-.884L9.116 10 6.433 7.317l.884-.884L10 9.116l2.683-2.683.884.884Z"></path><!--?-->
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="questions__shortcuts">
+                        <ul class="questions__shortcuts-list">
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Как написать в чат</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Как скачать приложение</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Как войти в личный кабинет</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Переводы</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Отменить перевод</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Лимит переводов</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Оспорить списание</p>
+                                </div>
+                            </li>
+                            <li class="questions__shortcuts-item">
+                                <div class="questions__shortcuts-value">
+                                    <p>Получить справку или выписку</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__inner container">
+            <div class="footer__up">
+                <div class="footer__up-left">
+                    <img
+                      class="footer__up-logo"
+                      src="./images/icons/tbank-logo_alt.svg"
+                      alt=""
+                      width="95" height="34" loading="lazy"
+                    />
+
+                    <div class="footer__up-button hidden-mobile">
+                        <div class="footer__up-button__text">
+                            <p>Скачайте приложение Т-Банка</p>
+                        </div>
+
+                        <div class="footer__up-button__icon">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0_9_5885" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="26" height="26">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M21.25 28.8334H23.9584C25.155 28.8334 26.1251 27.8633 26.1251 26.6667V8.25004C26.1251 7.05342 25.155 6.08337 23.9584 6.08337H21.25C22.4466 6.08337 23.4167 7.05342 23.4167 8.25004V26.6667C23.4167 27.8633 22.4466 28.8334 21.25 28.8334Z"
+                                          fill="black"/>
+                                    <path d="M12.5835 6.08337H20.1668L19.5773 7.85187C19.2824 8.73661 18.4545 9.33337 17.5219 9.33337H15.2285C14.2959 9.33337 13.4679 8.73661 13.173 7.85187L12.5835 6.08337Z"
+                                          fill="black"/>
+                                    <path opacity="0.8"
+                                          d="M14.1 25.0416C13.5615 25.0416 13.125 25.4781 13.125 26.0166C13.125 26.5551 13.5615 26.9916 14.1 26.9916H18.65C19.1885 26.9916 19.625 26.5551 19.625 26.0166C19.625 25.4781 19.1885 25.0416 18.65 25.0416H14.1Z"
+                                          fill="black"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M9.875 8.25004C9.875 7.05342 10.845 6.08337 12.0417 6.08337H12.5833L13.1728 7.85187C13.4677 8.73661 14.2957 9.33337 15.2283 9.33337H17.5217C18.4543 9.33337 19.2823 8.73661 19.5772 7.85187L20.1667 6.08337H21.25C22.4466 6.08337 23.4167 7.05342 23.4167 8.25004V26.6667C23.4167 27.8633 22.4466 28.8334 21.25 28.8334H9.875V8.25004ZM14.1 25.0417C13.5615 25.0417 13.125 25.4782 13.125 26.0167C13.125 26.5552 13.5615 26.9917 14.1 26.9917H18.65C19.1885 26.9917 19.625 26.5552 19.625 26.0167C19.625 25.4782 19.1885 25.0417 18.65 25.0417H14.1Z"
+                                          fill="url(#paint0_linear_9_5885)"/>
+                                </mask>
+                                <g mask="url(#mask0_9_5885)">
+                                    <path d="M5 5H31V31H5V5Z" fill="black" fill-opacity="0.7"/>
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_9_5885" x1="10.8422" y1="6.08337" x2="23.3219" y2="28.8852"
+                                                    gradientUnits="userSpaceOnUse">
+                                        <stop stop-opacity="0.5"/>
+                                        <stop offset="1" stop-opacity="0.3"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <ul class="footer__up-list">
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">О Т-Банке</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Новости</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Блог</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Работа</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Точки пополнения</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Банкоматы</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Курсы валют</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Контакты</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Помощь</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Безопасность</a>
+                        </li>
+                        <li class="footer__up-list__item">
+                            <a class="footer__up-list__link" href="/">Для инвесторов</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__up-right">
+                    <div class="footer__up-number">
+                        8 800 333-33-33
+                    </div>
+                    <div class="footer__p">
+                        <p>Для звонков по России</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__middle">
+                <div class="footer__middle-up">
+                    <p class="footer__p footer__middle-p">
+                        АО «ТБанк»
+                        <a class="footer__link" href="/">использует файлы "cookie"</a>,
+                        с целью персонализации сервисов и повышения удобства пользования веб-сайтом.
+                        «Cookie» представляют собой небольшие файлы, содержащие информацию о предыдущих посещениях веб-сайта.
+                        Если вы не хотите использовать файлы «cookie», измените настройки браузера.
+                    </p>
+                    <p class="footer__p footer__middle-p">
+                        На информационном ресурсе применяются
+                        <a class="footer__link" href="/">рекомендательные технологии</a>.
+                        При применении информационных технологий предоставления информации осуществляется сбор,
+                        систематизация и анализ сведений, относящихся к предпочтениям пользователей сети «Интернет»,
+                        находящихся на территории Российской Федерации.
+                    </p>
+                </div>
+                <div class="footer__middle-down">
+                    <ul class="footer__middle-list">
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Центр раскрытия корпоративной информации</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Информация о процентных ставках по договорам банковского вклада с физическими лицами</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Раскрытие информации профессиональным участником рынка ценных бумаг</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Новости об изменении условий продуктов и сервисов Банка</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Карта сайта</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Мониторинг работы Т-Банка</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Ограничения Дистанционного обслуживания</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Декларация соответствия условий труда государственным нормативным требованиям охраны труда АО «ТБанк»</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Информация о продолжительности операционного времени</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Информация о продолжительности операционного времени</a>
+                        </li>
+                        <li class="footer__middle-item">
+                            <a class="footer__link" href="/">Сообщить о коррупции</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__down">
+                <div class="footer__down-text footer__p">
+                    <p>© 2006—2024, АО «ТБанк», официальный сайт, универсальная лицензия ЦБ РФ № 2673</p>
+                </div>
+                <ul class="footer__down-list">
+                    <li class="footer__down-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <defs>
+                                <linearGradient id="dsId_mUSVmXUSFs0_linear_11222_4950" x1="12" y1="5.5" x2="12" y2="18.5"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="currentColor"></stop>
+                                    <stop offset="1" stop-opacity=".7" stop-color="currentColor"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path d="M13.005 18.5C5.317 18.5.933 13.62.75 5.5H4.6c.127 5.96 2.966 8.485 5.215 9.005V5.5h3.626v5.14c2.22-.221 4.553-2.563 5.34-5.14h3.626c-.605 3.175-3.134 5.518-4.933 6.48 1.799.781 4.68 2.824 5.776 6.52h-3.991c-.858-2.473-2.994-4.385-5.818-4.646V18.5h-.436Z"
+                                  fill="url(#dsId_mUSVmXUSFs0_linear_11222_4950)"></path>
+                        </svg>
+                    </li>
+                    <li class="footer__down-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <defs>
+                                <linearGradient id="dsId_cZnb5Jxa1l0_linear_11222_4958" x1="12" y1="1" x2="12" y2="22"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="currentColor"></stop>
+                                    <stop offset="1" stop-opacity=".7" stop-color="currentColor"></stop>
+                                </linearGradient>
+                                <linearGradient id="dsId_cZnb5Jxa1l1_linear_11222_4958" x1="12" y1="1" x2="12" y2="22"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="currentColor"></stop>
+                                    <stop offset="1" stop-opacity=".7" stop-color="currentColor"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M15.643 9.879a5.13 5.13 0 0 1-3.648 1.526 5.161 5.161 0 0 1-3.648-1.526 5.21 5.21 0 0 1-1.515-3.677c0-1.439.585-2.74 1.515-3.676A5.13 5.13 0 0 1 11.995 1c1.428 0 2.719.59 3.648 1.526a5.21 5.21 0 0 1 1.515 3.676 5.21 5.21 0 0 1-1.515 3.677Zm-3.648-6.052c-.637 0-1.222.26-1.652.693a2.432 2.432 0 0 0-.689 1.665c0 .642.259 1.231.689 1.665.413.433.998.694 1.652.694a2.32 2.32 0 0 0 1.652-.694c.43-.416.688-1.006.688-1.665 0-.642-.258-1.231-.688-1.665a2.262 2.262 0 0 0-1.652-.693Z"
+                                  fill="url(#dsId_cZnb5Jxa1l0_linear_11222_4958)"></path>
+                            <path d="m17.433 11.421 1.514 2.082c.087.104.07.242-.068.329a10.437 10.437 0 0 1-4.303 2.116l3.201 5.688c.086.173-.017.364-.206.364h-3.132a.245.245 0 0 1-.224-.156l-2.237-5.03-2.237 5.03c-.035.104-.12.156-.224.156H6.385c-.172 0-.293-.208-.207-.364l3.201-5.688a10.653 10.653 0 0 1-4.302-2.116.264.264 0 0 1-.035-.33l1.515-2.08a.265.265 0 0 1 .361-.035c1.429 1.231 3.184 2.029 5.077 2.029 1.893 0 3.648-.798 5.077-2.03a.237.237 0 0 1 .361.036Z"
+                                  fill="url(#dsId_cZnb5Jxa1l1_linear_11222_4958)"></path>
+                        </svg>
+                    </li>
+                    <li class="footer__down-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" focusable="false">
+                            <defs>
+                                <linearGradient id="dsId_-sYxeiSnb40_linear_11222_4934" x1="10.5" y1="4" x2="10.5" y2="21"
+                                                gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="currentColor"></stop>
+                                    <stop offset="1" stop-opacity=".7" stop-color="currentColor"></stop>
+                                </linearGradient>
+                            </defs>
+                            <path d="M2.306 11.319c5.1-2.4 8.501-3.981 10.203-4.745C17.368 4.392 18.377 4.013 19.035 4c.145-.002.469.036.678.22.177.155.226.364.25.511.023.147.052.482.029.744-.264 2.987-1.403 10.235-1.983 13.58-.245 1.416-.728 1.89-1.195 1.937-1.016.1-1.788-.725-2.772-1.422-1.54-1.09-2.41-1.768-3.904-2.831-1.727-1.23-.608-1.905.377-3.009.257-.289 4.734-4.684 4.82-5.083.011-.05.021-.236-.081-.334-.102-.098-.253-.065-.362-.038-.155.038-2.614 1.793-7.38 5.266-.698.518-1.33.77-1.897.757-.625-.015-1.826-.382-2.72-.695-1.095-.385-1.966-.588-1.89-1.241.04-.34.473-.688 1.301-1.043Z"
+                                  fill="url(#dsId_-sYxeiSnb40_linear_11222_4934)"></path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

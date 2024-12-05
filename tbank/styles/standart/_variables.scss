@@ -1,0 +1,33 @@
+:root {
+    --color-accent: #ffdd2d;
+    --color-dark: rgba(0,0,0,0.8);
+    --color-section-bg: #f6f7f8;
+    --color-blue: #126DF7;
+    --color-footer-bg: #292929;
+    --color-white: #fff;
+    --color-dark-alt: #333;
+    --color-gray: #E2E8F0;
+    --color-gray-dark: #9299A2;
+    --color-gray-alt: #EAECEE;
+    --color-gold: #f1ebd6;
+    --color-light-blue: #428BF929;
+    
+    --container-width: 1104px;
+    --container-padding-x: 20px;
+    --section-padding-y: 50px;
+    
+    --button-padding: 10px;
+    --button-height: 44px;
+    
+    --button-border-radius: 8px;
+    --card-border-radius: 24px;
+    
+    --font-family-base: 'Tinkoff Sans', sans-serif;
+    --font-family-alter: 'Neue Haas Unica W1G', sans-serif;
+    
+    --transition-duration: 0.3s;
+    
+    @include mobile {
+        --section-padding-y: 20px;
+    }
+}

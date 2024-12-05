@@ -1,0 +1,33 @@
+.button-yellow {
+    @include flex-center;
+    @include reset-button;
+    
+    padding: var(--button-padding);
+    height: var(--button-height);
+    background-color: var(--color-accent);
+    color: var(--color-dark-alt);
+    border-radius: var(--button-border-radius);
+    
+    &:hover {
+        background-color: #ecd013;
+    }
+}
+
+.button-white {
+    @include flex-center;
+    @include reset-button;
+    
+    padding: var(--button-padding);
+    height: var(--button-height);
+    color: var(--color-dark-alt);
+    border-radius: var(--button-border-radius);
+    
+    &:hover {
+        color: var(--color-gray-dark);
+    }
+}
+
+.light-bg {
+    background-color: var(--color-white);
+    color: var(--color-dark);
+}
